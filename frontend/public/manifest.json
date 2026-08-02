@@ -1,0 +1,17 @@
+{
+  "name": "AstraFlow - Multi-Agent AI Platform",
+  "short_name": "AstraFlow",
+  "description": "A multi-agent AI platform for research, coding, and creation.",
+  "start_url": "/workspace",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#171717",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

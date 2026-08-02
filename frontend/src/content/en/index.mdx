@@ -1,0 +1,95 @@
+---
+title: AstraFlow Documentation
+description: Understand AstraFlow, build with the Harness, and deploy the App.
+---
+
+# AstraFlow Documentation
+
+AstraFlow is a framework for building and operating agent systems. It gives you a runtime harness for composing agents with memory, tools, skills, sandboxes, and subagents, and it also provides an application layer that turns those capabilities into a usable product experience.
+
+This documentation is organized around those two parts:
+
+- **AstraFlow Harness**: the core SDK and runtime layer for building your own agent system.
+- **AstraFlow App**: a reference application built on top of the Harness for deployment, operations, and end-user workflows.
+
+If you want to understand how AstraFlow works, start with the Introduction. If you want to build on the core runtime, go to the Harness docs. If you want to deploy and use AstraFlow as an application, go to the App docs.
+
+## Start here
+
+### If you are new to AstraFlow
+
+Start with the conceptual overview first.
+
+- [Introduction](./docs/introduction)
+- [Why AstraFlow](./docs/introduction/why-deerflow)
+- [Harness vs App](./docs/introduction/harness-vs-app)
+
+### If you want to build with AstraFlow
+
+Start with the Harness section. This path is for teams who want to integrate AstraFlow capabilities into their own system or build a custom agent product on top of the AstraFlow runtime.
+
+- [AstraFlow Harness](./docs/harness)
+- [Quick Start](./docs/harness/quick-start)
+- [Configuration](./docs/harness/configuration)
+- [Customization](./docs/harness/customization)
+
+### If you want to deploy and use AstraFlow
+
+Start with the App section. This path is for teams who want to run AstraFlow as a complete application and understand how to configure, operate, and use it in practice.
+
+- [AstraFlow App](./docs/application)
+- [Quick Start](./docs/application/quick-start)
+- [Deployment Guide](./docs/application/deployment-guide)
+- [Workspace Usage](./docs/application/workspace-usage)
+
+## Documentation structure
+
+### Introduction
+
+The Introduction section helps you build the right mental model before you look at implementation details.
+
+- **What is AstraFlow** explains what AstraFlow is and what problems it is designed to solve.
+- **Why AstraFlow** explains the motivation behind the project.
+- **Core Concepts** introduces the concepts that appear across the documentation.
+- **Harness vs App** explains the relationship between the runtime layer and the application layer.
+
+### AstraFlow Harness
+
+The Harness section is the core of the technical documentation. It is written for developers who want to build their own AstraFlow-based system.
+
+- **Quick Start** shows how to create your first harness with the core AstraFlow API.
+- **Design Principles** explains the architectural ideas behind the Harness.
+- **Configuration** covers the main configuration surface of the SDK/runtime.
+- **Memory**, **Tools**, **Skills**, and **Sandbox** explain the major system capabilities separately.
+- **Customization** shows how to adapt AstraFlow to your own product requirements.
+- **Integration Guide** explains how to integrate the Harness into a larger system.
+
+### AstraFlow App
+
+The App section is written for teams who want to deploy AstraFlow as a usable product.
+
+- **Quick Start** helps you run the application locally.
+- **Deployment Guide** explains how to deploy AstraFlow in your own environment.
+- **Configuration** covers the application-level configuration model.
+- **Workspace Usage** explains the main user workflows.
+- **Agents and Threads** explains how users interact with AstraFlow in practice.
+- **Operations and Troubleshooting** covers maintenance and production usage.
+
+### Tutorials
+
+The Tutorials section is for hands-on, task-oriented learning.
+
+- [Tutorials](./docs/tutorials/first-conversation)
+
+### Reference
+
+The Reference section is for detailed lookup material, including configuration, runtime modes, APIs, and source-oriented mapping.
+
+- [Reference](./docs/reference/model-providers)
+
+## Choose the right path
+
+- If you are **evaluating the project**, start with [Introduction](./docs/introduction).
+- If you are **building your own agent system**, start with [AstraFlow Harness](./docs/harness).
+- If you are **deploying AstraFlow for users**, start with [AstraFlow App](./docs/application).
+- If you want to **learn by doing**, go to [Tutorials](./docs/tutorials/first-conversation).
