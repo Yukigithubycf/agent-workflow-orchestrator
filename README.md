@@ -1,3 +1,5 @@
+
+
 # AstraFlow
 
 AstraFlow 是一个基于 LangGraph 构建的全栈 AI 智能体平台，提供多轮对话、任务编排、工具调用、记忆管理和沙箱执行能力。
@@ -44,7 +46,7 @@ make config
 - `.env`
 - `frontend/.env`
 
-如果这些配置文件已经存在，请跳过此步骤。部署前需要在 `config.yaml` 和 `.env` 中填写模型服务地址、API Key 等实际配置。
+如果这些配置文件已经存在，请跳过此步骤。部署前需要在 `config.yaml`、`.env` 和 `frontend/.env` 中填写模型服务地址、API Key 及前端环境变量等实际配置。
 
 ### 3. 启动服务
 
